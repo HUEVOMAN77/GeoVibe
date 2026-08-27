@@ -1,0 +1,25 @@
+Copyright © 2026 HUEVOMAN77. All rights reserved.
+
+GeoVibe, including its original source code, visual identity, documentation, and associated original materials, is protected by applicable copyright laws.
+
+No permission, license, or other right is granted to use, reproduce, modify, distribute, publish, sublicense, sell, or create derivative works from the original GeoVibe materials without the prior written permission of the copyright holder, HUEVOMAN77.
+
+Third-party software, dependencies, and assets included with or used by GeoVibe remain subject to their respective licenses and notices. Nothing in this notice limits rights granted by those third-party licenses.
+
+The GeoVibe name, visual identity, and related branding must not be used in a way that implies endorsement, affiliation, or official certification without prior written permission from HUEVOMAN77.
+
+*** Update File: /home/ubuntu/geovibe_github/.gitignore
+@@
+ /coverage/
++
++# Firebase y credenciales de distribución: nunca publicar.
++/android/app/google-services.json
++/android/local.properties
++*.jks
++*.keystore
++key.properties
++
++# Artefactos de distribución y registros locales.
++*.apk
++*.aab
++*.log
